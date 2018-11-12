@@ -7,7 +7,7 @@ gulp.task('default', function() {
   	[
   		'sass:watch',
   		'html:watch',
-  		'font:watch',
+  		'script:watch',
   		'img:watch'
   	],
     'server'

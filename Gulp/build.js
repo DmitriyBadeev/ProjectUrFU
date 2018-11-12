@@ -12,7 +12,7 @@ gulp.task('build', ['clean'], function() {
   runSequence(
   	'sass',
     'html',
-    'font',
+    'script',
     'img'
     );
 });

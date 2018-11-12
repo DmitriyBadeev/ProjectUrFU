@@ -10,7 +10,7 @@
     "src": {
       "sass": "src/sass/main.sass",
       "html": "src/index.html",
-      "font": "src/fonts/**/*.*",
+      "script": "src/script/**/*.*",
       "img": {
         "compress": [
           "src/img/**/*.*",
@@ -22,7 +22,7 @@
     "dist": {
       "css": "dist/css",
       "html": "dist",
-      "font": "dist/fonts",
+      "script": "dist/script",
       "img": "dist/img"
     }
   },
