@@ -9,6 +9,9 @@ $title_font: 'Oswald', Sans-serif
 $size_title: 30px
 $size_text: 15px
 
+html
+	scroll-behavior: smooth;
+
 body
 	font-family: $main_font
 	font-size: 16px
@@ -18,6 +21,7 @@ h1
 	font-size: $size_title
 	color: white
 	font-family: $title_font
+	line-height: 30px
 
 h2
 	font-size: 25px
@@ -43,3 +47,16 @@ a
 ul
 	padding: 0 20px 20px
 
+.flexible-image
+	max-width: 100%
+
+.table__icon
+	border-collapse: separate
+	border-spacing: 0 20px
+	margin-top: -20px
+	height: calc(100% + 40px)
+	width: 100%	
+
+.icon__cell	
+	width: 100%
+	vertical-align: middle;

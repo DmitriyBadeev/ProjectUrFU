@@ -2,14 +2,11 @@
 @import "_setting.sass"
 @import "_components.sass"
 
-header
-	height: 80%
 
 .header
 	background-image: $main_background
 	background-repeat: no-repeat
 	background-position: center
-
 	.logo
 		height: 100px
 		background: rgba(0,0,0,0.75)
@@ -69,11 +66,8 @@ header
 	padding: 80px
 	.education__dis
 		margin-top: 40px
-	.icon
-		height: 185px
-		margin-bottom: 30px
-		img
-			padding-top: 30px
+	img
+		padding-top: 30px
 		
 
 .plan
@@ -113,9 +107,8 @@ header
 	padding: 100px
 	.who__dis
 		margin-top: 40px
-	.who__icon
-		padding: 15px
-		margin-bottom: 29px	
+	.icon__cell
+		padding: 15px 30px
 
 .wait
 	background: rgba(34,94,161, 0.3)
@@ -140,17 +133,21 @@ header
 	padding: 100px
 	.contact__dis
 		margin-top: 50px 
+		padding: 10px 20px
 		h2
 			text-align: left
-			padding: 20px 20px 0
+			padding: 10px 10px 0
+			font-size: 21px
 		p
-			font-size: 18px		
-	.contact__icon
-		padding: 55px
-		margin-bottom: 111px
+			font-size: 16px
+			padding: 12px 22px		
+	.icon__cell
+		padding: 20px
 	h2
 		text-align: left
-		padding-bottom: 20px 
+		padding-bottom: 20px
+	.map
+		margin-top: 50px	 
 
 .footer
 	background: linear-gradient(90deg, #002542, #005ea6)
@@ -163,3 +160,35 @@ header
 
 	a
 		color: white
+
+@media (min-width: 992px) and (max-width: 1199.98px)
+	.header
+		.description
+			.info			
+				.info__wrapper
+					p
+						font-size: 14px
+						padding: 10px 16px
+						.big
+							font-size: 22px
+		.logo
+			padding-right: 40px					
+
+	.plan
+		.plan__block
+			.frame	
+				height: 520px
+		.carousel-inner
+			width: 100%
+		.carousel-control-next
+			right: -90px
+		.carousel-control-prev
+			left: -90px	
+
+	.wait	
+		.logo
+			height: 80px			
+
+	.footer
+		p
+			font-size: 16px
