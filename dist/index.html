@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
-	<header class="header">
+	<header class="header" id="header">
 		<div class="logo">
 			<div class="container">
 				<div class="row">
@@ -26,7 +26,7 @@
 		<div class="description">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-7">
+					<div class="col-md-7">
 						<h1 class="title">Информационная безопасность</h1>
 						<div class="dis_wrapper">
 							<p class="text">
@@ -40,7 +40,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-4 ml-auto">
+					<div class="col-lg-4 col-md-5 ml-auto">
 						<div class="min_wrapper">
 							<p class="text">
 								<span class="bold">Вступительные испытания ЕГЭ:</span><br>
@@ -71,14 +71,14 @@
 
 
 				<div class="row">
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper"><p>
 							Форма обучения <br><br>
-							<span class="big">Очная</span>
+							<span class="big">Очная</span><br>
 							<span class="small">Очно-заочная</span>
 						</p></div>
 					</div>
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper">
 							<p>
 								Бюджетных мест в 2019г<br><br>
@@ -86,14 +86,14 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper"><p>
 								Проходной балл в 2018г<br><br>
 								<span class="big">240</span>
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper">
 							<p>
 								Стоимость обучения<br><br>
@@ -103,7 +103,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper">
 							<p>
 								Срок обучения<br><br>
@@ -111,7 +111,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-2 info">
+					<div class="col-lg-2 col-md-4 info">
 						<div class="info__wrapper">
 							<p>
 								Квалификация<br><br><br>
@@ -130,11 +130,15 @@
 			</a>	
 		</div>
 	</header>
-
+	<a class="block" href="#header" id="up" class="up">
+		<div>
+			<img src="img/arrow-up.png" alt="up">
+		</div>
+	</a>
 	<section class="education" id="down">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-7">
+				<div class="col-lg-7 col-md-12">
 					<h1 class="title">Как проходит образовательный процесс?</h1>
 					<div class="frame education__dis">
 						<p class="text">Студенты знакомятся с тенденцией развития информационной безопасности, с моделями возможных угроз, терминогогией и основными понятиями теории безопасности информации, а так же с нормативными документами России и правилами получения соответствующих лицензий.</p>
@@ -145,33 +149,28 @@
 
 					</div>
 				</div>
-				<div class="col-4 ml-auto">
-					<table class="table__icon">
-							<tr>
-								<td class="icon__cell frame">
-									<h2>Учебная практика</h2>
-									<div class="d-flex justify-content-center">
-										<img src="img/study.png" alt="study">
-									</div>	
-								</td>
-							</tr>
-							<tr>
-								<td class="icon__cell frame">
-									<h2>Производственная практика</h2>
-									<div class="d-flex justify-content-center">
-										<img src="img/production.png" alt="study">
-									</div>
-								</td>				
-							</tr>
-							<tr>
-								<td class="icon__cell frame">
-									<h2>Преддипломная практика</h2>
-									<div class="d-flex justify-content-center">
-										<img src="img/diploma.png" alt="study">
-									</div>
-								</td>
-							</tr>
-					</table>	
+				<div class="col-lg-4 col-md-12 ml-auto">
+					<div class="icons">							
+						<div class="icon__cell frame">
+							<h2>Учебная <br> практика</h2>
+							<div class="d-flex justify-content-center">
+								<img src="img/study.png" alt="study" class="flexible-image">
+							</div>	
+						</div>
+						
+						<div class="icon__cell frame">									    <h2>Производственная <br> практика</h2>
+							<div class="d-flex justify-content-center">
+								<img src="img/production.png" alt="production" class="flexible-image">
+							</div>
+						</div>				
+			
+						<div class="icon__cell frame">
+							<h2>Преддипломная <br> практика</h2>
+							<div class="d-flex justify-content-center">
+								<img src="img/diploma.png" alt="diploma" class=flexible-image">
+							</div>
+						</div>	
+					</div>
 				</div>
 			</div>
 		</div>		
@@ -180,7 +179,7 @@
 	<section class="plan">
 		<div class="container">
 			<div class="row">
-				<div class="col-7">
+				<div class="col-lg-7 col-md-12">
 					<h1 class="title">Что будем изучать?</h1>
 					<div class="frame plan__dis">
 						<p class="text">
@@ -192,7 +191,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-4 ml-auto">
+				<div class="col-lg-4 ml-auto">
 					<div class="plan__icon frame">
 						<h2>Учебный план</h2>
 						<div class="d-flex justify-content-center">	
@@ -410,7 +409,7 @@
 	<section class="who">
 		<div class="container">
 			<div class="row">
-				<div class="col-7">
+				<div class="col-lg-7 col-md-12">
 					<h1 class="title">Кто мы и куда пойдем?</h1>
 					<div class="frame who__dis">
 						<p class="text">Всего за 4 года наши преподаватели обучат вас основам высшей математики и программирования. Вы получите базовые знания в области современной радиоэлектроники и средств связи. С нашей помощью вы познакомитесь с основами информационной безопасности, научитесь понимать и толковать Федеральные законы и нормативные акты. Вы овладеете навыками администрирования операционных систем и компьютерных сетей. Наконец, вы получите первоначальные навыки проектирования и эксплуатации безопасных автоматизированных систем, а их безопасность будет целиком и полностью зависеть от ваших интеллектуальных и деловых качеств.</p>
@@ -421,37 +420,28 @@
 
 					</div>
 				</div>
-				<div class="col-4 ml-auto">
-					<table class="table__icon">
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/who1.png" alt="1">
-								</div>	
-							</td>
-						</tr>
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/who2.png" alt="2">
-								</div>	
-							</td>
-						</tr>
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/who3.png" alt="3">
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/who4.png" alt="4">
-								</div>
-							</td>
-						</tr>
-					</table>
+				<div class="col-lg-4 col-md-12 ml-auto">
+					<div class="icons">
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">
+								<img src="img/who1.png" alt="1" class="flexible-image">
+							</div>	
+						</div>
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">							<img src="img/who2.png" alt="2" class="flexible-image">
+							</div>	
+						</div>
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">
+								<img src="img/who3.png" alt="3" class="flexible-image">
+							</div>
+						</div>
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">
+								<img src="img/who4.png" alt="4" class="flexible-image">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>		
@@ -460,12 +450,12 @@
 	<section class="wait">
 		<div class="container">
 			<div class="row">
-				<div class="col-7">
+				<div class="col-lg-7 col-md-12">
 					<h1 class="title">Кто нас ждет после выпуска?</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-3">
+				<div class="col-lg-3 col-md-4">
 					<a href="https://www.nppgamma.ru/branches/ekaterinburgskiy-ntts/">
 						<div class="frame wait__icon">
 							<div class="d-flex justify-content-center">
@@ -475,7 +465,7 @@
 					</a>
 					<h2>Научно-технический центр «Гамма»</h2>
 				</div>
-				<div class="offset-1 col-4">
+				<div class="col-lg-4 offset-lg-1 col-md-4">
 					<a href="http://www.irsural.ru">
 						<div class="frame wait__icon">
 							<div class="d-flex justify-content-center">
@@ -485,7 +475,7 @@
 					</a>
 					<h2>ООО «Институт радиоэлектронных систем»</h2>
 				</div>
-				<div class="col-3 ml-auto">
+				<div class="col-lg-3 offset-lg-1 col-md-4">
 					<a href="https://www.ussc.ru">
 						<div class="frame wait__icon">
 							<div class="d-flex justify-content-center">
@@ -502,7 +492,7 @@
 	<section class="contact">
 		<div class="container">
 			<div class="row">
-				<div class="col-7">
+				<div class="col-lg-7 col-md-12">
 					<h1 class="title">Контакты</h1>
 					<div class="frame contact__dis">
 						<h2>Отборочная комиссия ИРИТ-РтФ</h2>
@@ -527,30 +517,23 @@
 						<p class="text"><a href="https://vk.com/iritrtf_urfu">АБИТУРИЕНТ ИРИТ-РтФ</a></p>
 					</div>
 				</div>
-				<div class="col-4 ml-auto">
-					<table class="table__icon">
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/call.png" alt="1">
-								</div>	
-							</td>
-						</tr>
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/email.png" alt="2">
-								</div>	
-							</td>
-						</tr>
-						<tr>
-							<td class="icon__cell frame">
-								<div class="d-flex justify-content-center">
-									<img src="img/location.png" alt="3">
-								</div>	
-							</td>
-						</tr>
-					</table>
+				<div class="col-lg-4 ml-auto col-md-12">
+					<div class="icons">		
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">
+								<img src="img/call.png" alt="1">
+							</div>	
+						</div>
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">							<img src="img/email.png" alt="2">
+							</div>	
+						</div>
+						<div class="icon__cell frame">
+							<div class="d-flex justify-content-center">
+								<img src="img/location.png" alt="3">
+							</div>	
+						</div>
+					</div>
 				</div>
 			</div>
 			<h2 class="map">Наши координаты:</h2>
