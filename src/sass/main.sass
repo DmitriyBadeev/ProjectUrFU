@@ -2,7 +2,6 @@
 @import "_setting.sass"
 @import "_components.sass"
 
-
 .header
 	background-image: $main_background
 	background-repeat: no-repeat
@@ -17,7 +16,7 @@
 			opacity: 0.8
 
 	.description
-		margin: 40px 0px 0px 0
+		margin-top: 40px
 		.row
 			padding-bottom: 30px
 		.dis_wrapper
@@ -37,23 +36,32 @@
 			.info__wrapper
 				background: rgba(0,0,0,0.75)
 				height: 145px
-				p
+				color: white
+				display: flex
+				flex-direction: column
+				padding: 10px 16px
+				.big
+					font-size: 25px
+					font-weight: bold
+					position: absolute
+					top: 80px
+					
+				.medium
 					font-size: 16px
-					color: white
-					padding: 10px 22px
-					.big
-						font-size: 25px
-						font-weight: bold
-						padding-top: 10px
-					.small
-						font-size: 14px
-						font-weight: bold
-					.very_small
-						font-size: 10px
-						a
-							color: white
-						a:hover
-							color: $main_color
+				.small
+					font-size: 14px
+					font-weight: bold
+					position: absolute
+					bottom: 10px
+		
+
+				.very_small
+					font-size: 10px
+					padding: 0
+					a
+						color: white
+					a:hover
+						color: $main_color
 
 		a:hover
 			opacity: 0.9				
@@ -163,104 +171,4 @@
 	a
 		color: white
 
-@media (min-width: 992px) and (max-width: 1199.98px)
-	.header
-		.description
-			.info			
-				.info__wrapper
-					p
-						font-size: 14px
-						padding: 10px 16px
-						.big
-							font-size: 22px
-		.logo
-			padding-right: 40px					
-
-	.plan
-		.plan__block
-			.frame	
-				height: 520px
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: -90px
-		.carousel-control-prev
-			left: -90px	
-
-	.wait	
-		.logo
-			height: 80px			
-
-	.footer
-		p
-			font-size: 16px
-
-@media (min-width: 768px) and (max-width: 991.98px)
-	.header	
-		.logo
-			padding-right: 150px
-
-		.description	
-			.info
-				margin-top: 15px
-
-	.education
-		.icon__cell	
-			padding: 0
-			flex-basis: 30%	
-
-	.plan
-		.plan__icon
-			margin-top: 20px
-			padding: 3px
-			img
-				height: 140px
-				padding-top: 10px
-		.plan__block
-			.frame	
-				height: 555px
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: -90px
-		.carousel-control-prev
-			left: -90px			
-			
-
-	.who
-		.icons
-			flex-wrap: wrap
-			.icon__cell	
-				padding: 10px
-				margin-top: 10px
-				flex-basis: 45%	
-								
-	.icons
-		flex-direction: row
-		width: 100%
-		justify-content: space-between
-		margin-top: 20px
-
-	.wait	
-		.logo
-			height: 60px	
-		.wait__icon
-			padding: 30px 5px
-
-				
-	h2
-		font-size: 21px
-		
-		
-	.contact
-		.icons
-			.icon__cell
-				flex-basis: 30%
-				padding: 10px	
-				img
-					height: 100px
-					width: 100px
-	.footer
-		padding-top: 50px
-		p
-			font-size: 14px
+@import "_adaptive.sass"
