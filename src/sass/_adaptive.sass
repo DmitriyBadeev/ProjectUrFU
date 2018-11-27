@@ -139,7 +139,8 @@
 			.down
 				height: 55px
 				img	
-					height: 70px
+					width: 40px
+					height: 40px
 
 	.education
 		padding: 50px 0
@@ -218,7 +219,7 @@
 @media (max-width: 575.98px)
 	.header	
 		.logo
-			height: 60px
+			height: 80px
 			padding: 10px 0
 			padding-right: 160px
 			img
@@ -227,15 +228,21 @@
 			margin-top: 10px
 			.dis_wrapper
 				margin: 10px 60px 0 0
+			.min_wrapper
+				.text
+					padding: 5px 18px
 			.info
 				margin-top: 5px
 				.info__wrapper
-					height: 88px
+					height: 75px
 					.big
-						top: 35px
-						font-size: 20px
+						top: 25px
+						font-size: 16px
 					.medium
-						font-size: 11px	
+						font-size: 9px
+					.small
+						font-size: 12px
+						bottom: 12px
 
 	.footer
 		height: auto
@@ -255,3 +262,19 @@
 	h1
 		font-size: 20px
 		line-height: 20px
+
+@media (max-width: 400px)
+	.header
+		.logo
+			height: 50px
+			padding: 10px 0
+			padding-right: 120px
+			img
+				height: 30px
+	.plan
+		.plan__block
+			.frame
+				height: 900px
+	li
+		font-size: 9px
+
