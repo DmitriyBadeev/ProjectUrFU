@@ -6,14 +6,14 @@ function drawChart() {
         ['стаж', 'зарплата'],
         ['до 1 года', 60000],
         ['от 1 до 3 лет', 75000],
-        ['от 3 до 6 лет',  87500],
+        ['от 3 лет',  87500],
     ]);
 
     var data2 = google.visualization.arrayToDataTable([
         ['стаж', 'зарплата'],
         ['до 1 года', 21100],
         ['от 1 до 3 лет', 30000],
-        ['от 3 до 6 лет',  40000],
+        ['от 3 лет',  40000],
     ]);
 
     var options1 = {
@@ -52,6 +52,24 @@ function drawChart() {
         }
     };
 
+    var data = google.visualization.arrayToDataTable([
+        ['Год', 'Средний возраст выпускников', 'Средняя зарплата (тыс. руб.)', 'Процент трудоустройства'],
+        ['2014', 22.8, 26.336, 73.3],
+        ['2015', 23.2, 35.807, 84.8],
+        ['2016', 23.1, 49.378, 89.3]
+    ]);
+
+    var options = {
+        height: 400,
+        backgroundColor: '#F9F9F9',
+        legend: {
+            position: 'bottom',
+        },
+    };
+
+    var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+    chart.draw(data, google.charts.Bar.convertOptions(options));
+
     var chart1 = new google.visualization.PieChart(document.getElementById('moscow'));
     var chart2 = new google.visualization.PieChart(document.getElementById('region'));
     chart1.draw(data1, options1);
@@ -64,11 +82,11 @@ google.charts.setOnLoadCallback(drawBackgroundColor);
 function drawBackgroundColor() {
     var data = new google.visualization.DataTable();
     data.addColumn('number', 'X');
-    data.addColumn('number', 'Вакансии на одном популярном портале для поиска работы');
+    data.addColumn('number', 'Среднее кол-во вакансий за год на hh.ru');
 
     data.addRows([
         [2010, 205],   [2011, 242],  [2012, 287],  [2013, 357],  [2014, 421],  [2015, 452],
-        [2016, 562]
+        [2016, 562], [2017, 610], [2018, 825]
     ]);
 
     var options = {
@@ -98,9 +116,9 @@ function drawBackgroundColor() {
             easing: 'out',
         },
         chartArea: {
-            height: 280,
+            height: 300,
         },
-        height: 440,
+        height: 450,
         colors: ['#DC3912'],
     };
 
@@ -119,3 +137,7 @@ window.onscroll = function() {
         document.getElementById('vk_community_messages').style.display = 'none';
     }
   }
+
+google.charts.load('current', {'packages':['bar']});
+google.charts.setOnLoadCallback(drawChart);
+

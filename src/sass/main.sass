@@ -79,45 +79,62 @@
 		margin-top: 40px
 	img
 		padding-top: 20px
+	.icons
+		display: flex
+		flex-direction: column
+		height: 100%
+		justify-content: space-between
+
 	.icon__cell
+		width: 100%
+		vertical-align: middle
 		padding: 10px 10px
 		
 
 .plan
 	background-image: url(../img/plan_bg.png)
 	background-position: center
-	padding: 60px
+	padding: 60px 0
 	.plan__dis
 		margin-top: 30px
+		background: #E8E8E8
 		.text
-			font-size: 18px
+			font-size: 15px
 	.plan__icon
 		height: 100%
 		padding: 20px
+		background: #E8E8E8
 		img
-			padding-top: 20px	
-	.plan__block
-		padding-top: 30px
-		.frame
-			border-radius: 0
+			padding-top: 20px
+
+	.carousel
+		margin: 50px 0
+		height: 600px
+		width: 100%
+		border-radius: 2px
+		.carousel__plan
+			display: flex
+			justify-content: space-between
+			padding: 15px
+		.title
+			background: $main_color
+
 		h2
 			padding: 20px
 			text-align: left
 		li			
-			font-size: 14px
+			font-size: 15px
 
-		.frame	
-			height: 470px		
+	.carousel-cell
+		width: 72%
+		height: 600px
+		margin-right: 100px
+		background: #E8E8E8
+		border-radius: 5px
+		counter-increment: gallery-cell
 
-	.carousel-control-next
-		right: -120px
-	.carousel-control-prev
-		left: -120px	
-	.carousel-inner
-		width: 100%
-		margin: 0 auto
-	.carousel-indicators
-		bottom: -30px
+	.flickity-page-dots
+		bottom: 15px
 
 .profession
 	background: #e8e8e8
@@ -139,6 +156,9 @@
 		margin: 50px 0
 
 	.profession__info
+		display: flex
+		flex-direction: column
+		align-content: baseline
 		padding: 10px
 		height: 340px
 		margin-bottom: 50px
@@ -146,16 +166,8 @@
 			font-size: 17px
 		h2
 			font-size: 20px
-		.document:before
-			content: url('../img/writing.png')
-			margin: 0 10px 0 0
-
-		.protection:before
-			content: url('../img/protection.png')
-			margin: 0 10px 0 0
-		.consulting:before
-			content: url('../img/consulting.png')
-			margin: 0 10px 0 0
+		i
+			font-size: 26px
 
 .who
 	background: #e8e8e8
@@ -170,41 +182,60 @@
 		margin-bottom: 20px
 		padding: 10px
 		min-height: 120px
+		.icon
+			font-size: 30px
 		h2
 			font-size: 21px
 			text-align: left
-		h2:before
-			content: url('../img/check-box.png')
-			margin: 0 10px 0 0
 
 .vacancy
-	height: 600px
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.3)
-	padding: 60px 0
+	padding: 80px 0
 	background: #F9F9F9
-
+	#mar
+		margin: 70px 0
+	#chart_div
+		margin: 0 auto
+		width: 100%
+	#columnchart_material
+		margin: 40px auto
+		width: 90%
+	.text
+		text-align: right
+		color: rgba(90, 90, 90, 0.8)
 .wait
 	background-image: url(../img/work_bg.png)
 	background-position: left
-	padding: 80px
+	padding: 80px 0
 	box-shadow: 0px 0px 30px rgba(0,0,0,0.3)
-	h2
-		color: #FFF
-
+	.carousel
+		margin: 50px 0
+	.flickity-page-dots .dot
+		width: 12px
+		height: 12px
+		opacity: 0.8
+		background: transparent
+		border: 2px solid white
+	.flickity-page-dots .dot.is-selected
+		background: #F9F9F9
 	.wait__icon
-		height: 150px
-		padding: 20px
-		margin-top: 50px
+		height: 230px
+		width: 400px
+		margin: 50px 20px
+		vertical-align: middle
 		box-shadow: 0px 0px 50px rgba(0,0,0,0.7)
+
 	.logo
 		height: 100px
 	a
-		display: block
-		
+		display: flex
+		flex-direction: column
+		justify-content: space-around
+		width: 100%
+		height: 100%
 	a:hover
 		box-shadow: 0px 0px 80px rgba(0,0,0,0.6)
-	h2
-		margin-top: 15px	
+		text-decoration: none
 
 .contact
 	background: #e8e8e8
@@ -219,9 +250,15 @@
 			font-size: 21px
 		p
 			font-size: 16px
-			padding: 12px 22px		
-	.icon__cell
-		padding: 20px
+			padding: 12px 22px
+
+	.contact__icons
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		height: 100%
+		.icon__cell
+			padding: 40px
 	h2
 		text-align: left
 		padding-bottom: 20px
@@ -236,7 +273,7 @@
 	text-align: center
 	p
 		color: white
-		font-size: 18px
+		font-size: 16px
 
 	a
 		color: white

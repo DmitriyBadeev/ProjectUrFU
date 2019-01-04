@@ -13,20 +13,18 @@
 			padding-right: 40px					
 
 	.plan
-		.plan__block
-			.frame	
-				height: 520px
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: -90px
-		.carousel-control-prev
-			left: -90px	
-
+		.carousel-cell
+			width: 80%
+	.who
+		.who__icon
+			height: 140px
 	.wait	
 		.logo
-			height: 80px			
-
+			height: 80px
+		.wait__icon
+			height: 210px
+			width: 300px
+			margin: 50px 10px
 	.footer
 		p
 			font-size: 16px
@@ -39,12 +37,8 @@
 		.description	
 			.info
 				margin-top: 15px
-
 	.education
-		.icon__cell	
-			padding: 0
-			flex-basis: 30%	
-
+		padding: 80px 0
 	.plan
 		.plan__icon
 			margin-top: 20px
@@ -52,17 +46,19 @@
 			img
 				height: 140px
 				padding-top: 10px
-		.plan__block
-			.frame	
-				height: 555px
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: -90px
-		.carousel-control-prev
-			left: -90px			
-			
+		.carousel
+			height: 800px
+			.carousel-cell
+				height: 800px
+				.carousel__plan
+					height: 800px
 
+	.profession
+		.profession__info
+			height: 180px
+		.salary
+			h2
+				font-size: 25px
 	.who
 		.icons
 			flex-wrap: wrap
@@ -77,25 +73,21 @@
 		justify-content: space-between
 		margin-top: 20px
 
-	.wait	
+	.wait
 		.logo
-			height: 60px	
+			height: 80px
 		.wait__icon
-			padding: 30px 5px
-
-				
+			height: 210px
+			width: 250px
+			margin: 20px 5px
 	h2
 		font-size: 21px
-		
-		
 	.contact
-		.icons
+		padding: 100px 0
+		.contact__icons
+			margin-top: 20px
 			.icon__cell
-				flex-basis: 30%
-				padding: 10px	
-				img
-					height: 100px
-					width: 100px
+				padding: 10px
 	.footer
 		padding-top: 50px
 		p
@@ -159,34 +151,43 @@
 			img
 				height: 140px
 				padding-top: 10px
-		.plan__block
-			.frame	
-				height: 800px
-			li
-				font-size: 13px	
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: -34px
-			width: 40px
-		.carousel-control-prev
-			left: -34px
-			width: 40px
+		.carousel
+			height: 900px
+			.carousel-cell
+				height: 900px
+				.carousel__plan
+					display: flex
+					flex-direction: column
+					justify-content: space-around
+					padding: 15px
 
+	.profession
+		.profession__info
+			height: 200px
+		.salary
+			h2
+				font-size: 20px
 	.who
 		padding: 30px 0
 		.icon__cell
 			margin-top: 10px
 
 	.wait
-		padding: 30px 0	
-		.wait__icon
-			padding: 30px 0
+		padding: 30px 0
+		.carousel
+			.wait__icon
+				height: 210px
+				width: 270px
+				margin: 20px 10px
+
+
 
 	.contact
 		padding: 30px 0
-		.icon__cell
-			margin-top: 10px
+		.contact__icons
+			.icon__cell
+				padding: 10px
+				margin-top: 10px
 
 	.footer
 		padding-top: 25px
@@ -243,18 +244,22 @@
 					.small
 						font-size: 12px
 						bottom: 12px
-
+	.plan
+		.carousel
+			height: 1000px
+			.carousel-cell
+				height: 1000px
+				width: 95%
+				.carousel__plan
+					height: 900px
+					width: 95%
+	.profession
+		.profession__info
+			height: 300px
 	.footer
 		height: auto
 
 
-	.plan
-		.carousel-inner
-			width: 100%
-		.carousel-control-next
-			right: 0
-		.carousel-control-prev
-			left: 0
 
 	.title
 		padding: 15px 25px			
@@ -271,10 +276,6 @@
 			padding-right: 120px
 			img
 				height: 30px
-	.plan
-		.plan__block
-			.frame
-				height: 900px
 	li
 		font-size: 9px
 
