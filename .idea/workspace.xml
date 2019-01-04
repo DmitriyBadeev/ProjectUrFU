@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1bd26faa-1000-494a-b8f1-7a203baaa690" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/diploma.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/diploma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/plan.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/plan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/production.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/production.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/diploma.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/diploma.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/plan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/plan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/production.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/production.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_adaptive.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_adaptive.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_components.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_components.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_setting.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/_setting.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/script.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,7 +74,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/_adaptive.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="481">
+                <state relative-caret-position="1201">
                   <caret line="257" column="22" selection-start-line="257" selection-start-column="22" selection-end-line="257" selection-end-column="22" />
                 </state>
               </provider>
@@ -126,42 +111,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Проект" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Проект" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Проект" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Проект" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Проект" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Проект" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Проект" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Проект" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Проект" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Проект" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -257,12 +207,20 @@
       <workItem from="1545403997220" duration="9288000" />
       <workItem from="1545655277402" duration="995000" />
       <workItem from="1545927113054" duration="612000" />
-      <workItem from="1546606342690" duration="1667000" />
+      <workItem from="1546606342690" duration="2440000" />
     </task>
+    <task id="LOCAL-00001" summary="last fix">
+      <created>1546608726721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546608726722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110623000" />
+    <option name="totallyTimeSpent" value="111396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,7 +242,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0058565154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.0058565154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,6 +320,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="last fix" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,7 +390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/_adaptive.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="1201">
           <caret line="257" column="22" selection-start-line="257" selection-start-column="22" selection-end-line="257" selection-end-column="22" />
         </state>
       </provider>

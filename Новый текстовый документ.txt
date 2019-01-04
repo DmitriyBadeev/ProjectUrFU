@@ -1,0 +1,258 @@
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				</ol>
+ 				<div class="carousel-inner">
+    				<div class="carousel-item active">
+      				<div class="plan__block">
+						<h1 class="title">Первый курс</h1>
+						<div class="frame non-border_top">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<h2>Первый семестр</h2>		
+										<ul>
+											<li>Иностранный язык</li>
+											<li>Русский язык и культура речи</li>
+											<li>Математика</li>
+											<li>Экология</li>
+											<li>Введение в специальность</li>
+											<li>Информатика</li>
+											<li>Компьютерная и инженерная графика</li>
+											<li>История</li>
+											<li>Векторный анализ</li>
+											<li>Прикладная физическая культура</li>
+										</ul>		
+									</div>
+									<div class="col">
+										<h2>Второй семестр</h2>
+										<ul>
+											<li>Иностранный язык</li>
+											<li>Физика</li>
+											<li>Математика</li>
+											<li>Безопасность жизнедеятельности</li>
+											<li>Проект</li>
+											<li>Алгоритмизация и программирование</li>
+											<li>Философия</li>
+											<li>Векторный анализ</li>
+											<li>Прикладная физическая культура</li>
+											<li>Практика по получению профессиональных навыков</li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+										</ul>			
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				</div>
+    				<div class="carousel-item">
+      				<div class="plan__block">
+						<h1 class="title">Второй курс</h1>
+						<div class="frame non-border_top">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<h2>Третий семестр</h2>		
+										<ul>
+											<li>Иностранный язык</li>
+											<li>Физика</li>
+											<li>Проект</li>
+											<li>Правоведение</li>
+											<li>Теория электрических цепей</li>
+											<li>Электроника и схемотехника</li>
+											<li>Основы информационной безопасности</li>
+											<li>Языки программирования</li>
+											<li>Специальные главы математики</li>
+											<li>Теория вероятностей и математическая статистика</li>
+											<li>Прикладная физическая культура</li>
+										</ul>		
+									</div>
+									<div class="col">
+										<h2>Четвертый семестр</h2>
+										<ul>
+											<li>Иностранный язык</li>
+											<li>Метрология, стандартизация и сертификация</li>
+											<li>Экономика</li>
+											<li>Проект</li>
+											<li>Сети и системы передачи информации</li>
+											<li>Теория электрических цепей</li>
+											<li>Электроника и схемотехника</li>
+											<li>Правовое обеспечение информационной безопасности</li>
+											<li>Информационный технологии</li>
+											<li>Дискретная математика и математическая логика</li>
+											<li>Прикладная физическая культура</li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+										</ul>	
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+    				</div>
+				    <div class="carousel-item">
+				      <div class="plan__block">
+						<h1 class="title">Третий курс</h1>
+						<div class="frame non-border_top">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<h2>Пятый семестр</h2>		
+										<ul>
+											<li>Измерения в телекоммуникационных системах</li>
+											<li>Проект</li>
+											<li>Сети и системы передачи информации</li>
+											<li>Документоведение</li>
+											<li>Основы управления информационной безопасностью</li>
+											<li>Электромагнитные излучения и наводки</li>
+											<li>Теория информации</li>
+											<li>Аппаратные средства вычислительной техники</li>
+											<li>Безопасность систем баз данных</li>
+											<li>Проект по выбору студента</li>
+											<li>Прикладная физическая культура</li>
+										</ul>		
+									</div>
+									<div class="col">
+										<h2>Шестой семестр</h2>
+										<ul>
+											<li>Техническая защита информации</li>
+											<li>Криптографические методы и средства защиты информации</li>
+											<li>Операционные системы</li>
+											<li>Сетевые технологии</li>
+											<li>Катастрофоустойчивость информационных систем</li>
+											<li>Проект по выбору студента</li>
+											<li>Физическая культура</li>
+											<li>Майнор №1</li>
+											<li>Проектно-технологическая практика</li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+											<li><br></li>
+										</ul>	
+									</div>
+								</div>
+							</div>			
+						</div>
+					</div>
+				    </div>
+				    <div class="carousel-item">
+				      <div class="plan__block">
+						<h1 class="title">Четвертый курс</h1>
+						<div class="frame non-border_top">
+							<div class="container">
+								<div class="row">
+									<div class="col">
+										<h2>Седьмой семестр</h2>		
+										<ul>
+											<li>Технические средства охраны</li>
+											<li>Программно-аппаратные средства защиты информации</li>
+											<li>Безопасность информационных систем</li>
+											<li>Операционные системы</li>
+											<li>Безопасность вычислительных систем</li>
+											<li>Учебно-исследовательская работа студентов</li>
+											<li>Безопасность офисных программ</li>
+											<li>Конфиденциальное делопроизводство</li>
+											<li>Организация защищённого электронного документооборота</li>
+											<li>Защита от компьютерных атак</li>
+											<li>Противодействие вредоносным программам</li>
+											<li>Элементы компьютерной криминалистики</li>
+											<li>Проект по выбору студента</li>
+											<li>Майнор №2</li>
+										</ul>		
+									</div>
+									<div class="col">
+										<h2>Восьмой семестр</h2>
+										<ul>
+											<li>Обеспечение защиты информации</li>
+											<li>Средства защиты информации</li>
+											<li>Проект</li>
+											<li>Проектирование защищённых систем</li>
+											<li>Проект "Учебно-исследовательская работа студентов"</li>
+											<li>Преддипломная работа</li>
+											<li>Выпускная квалификационная работа</li>
+											<li>Государственный экзамен</li>
+										</ul>			
+									</div>
+								</div>
+							</div>							
+						</div>
+					  </div>
+				    </div>
+  				</div>
+  				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    				<span class="sr-only">Previous</span>
+  				</a>
+  				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    				<span class="sr-only">Next</span>
+  				</a>
+			</div>
+
+
+
+	.carousel-control-next
+		right: -120px
+	.carousel-control-prev
+		left: -120px	
+	.carousel-inner
+		width: 100%
+		margin: 0 auto
+	.carousel-indicators
+		bottom: -30px
+
+
+
+
+
+	.plan
+		.carousel-inner
+			width: 100%
+		.carousel-control-next
+			right: 0
+		.carousel-control-prev
+			left: 0
+
+
+		.carousel-inner
+			width: 100%
+		.carousel-control-next
+			right: -34px
+			width: 40px
+		.carousel-control-prev
+			left: -34px
+			width: 40px
+
+
+
+
+
+		.carousel-inner
+			width: 100%
+		.carousel-control-next
+			right: -90px
+		.carousel-control-prev
+			left: -90px		
+
+
+
+
+
+
+		.carousel-inner
+			width: 100%
+		.carousel-control-next
+			right: -90px
+		.carousel-control-prev
+			left: -90px	
